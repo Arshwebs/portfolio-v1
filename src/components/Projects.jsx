@@ -3,6 +3,7 @@ import projectOne from "../assets/project-1.png";
 import projectTwo from "../assets/project-2.png";
 import projectThree from "../assets/project-3.png";
 import projectFour from "../assets/project-4.png";
+import projectFive from "../assets/project-5.png";
 function Projects() {
   return (
     <>
@@ -126,7 +127,7 @@ function Projects() {
             <div className="details-container  projects-flex-basics color-container">
               <div className="article-container">
                 <img
-                  src={projectFour}
+                  src={projectFive}
                   alt="Project 5"
                   className="project-img"
                 />
@@ -138,7 +139,9 @@ function Projects() {
                 <button
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
-                    window.open("https://github.com/Arshwebs/sb-admin-task1")
+                    window.open(
+                      "https://github.com/Arshwebs/stack-overflow-clone",
+                    )
                   }
                 >
                   Github
@@ -146,7 +149,7 @@ function Projects() {
                 <button
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
-                    window.open("https://sb-admin-task-1.netlify.app/")
+                    window.open("https://velvety-bavarois-1065be.netlify.app/")
                   }
                 >
                   Live Demo
